@@ -40,6 +40,7 @@ int main ()
 				max_weight = sums[n];
 		}
 
+#if DEBUG
 	    printf ("indices:\t");
 	    for (int n=0; n != N; ++n)
 			printf ("%ld\t", indices[n]);
@@ -55,11 +56,10 @@ int main ()
 			printf ("%ld\t", sums[n]);
 	    printf ("\n");
 
-	    printf ("max: %ld\n", max_weight);
-
-
-
-
+	    printf ("max: %ld\n\n", max_weight);
+#else
+		printf ("%ld\n", max_weight);
+#endif
 
 	    free (indices);
 	    free (weights);
