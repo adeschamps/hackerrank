@@ -1,4 +1,4 @@
-# Works, but the read function hackerrank does not support the -n option
+# Works, but times out on a few test cases
 
 sum=0
 index=1
