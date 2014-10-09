@@ -26,4 +26,4 @@
 	  (format t "~%"))))
 
 ;; The challenge called for a 32 row triangle: size log_2(32) = 5
-(sierpinski-triangle 5 (read))
+(sierpinski-triangle (read) (read))
